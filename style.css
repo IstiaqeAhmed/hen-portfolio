@@ -4,6 +4,9 @@ h1{
     color: crimson;
     
 }
+h2{
+    font-size: 40px;
+}
 p{
     color: darkgoldenrod;
 }
@@ -29,7 +32,7 @@ body{
     text-decoration: none;
     background-image: linear-gradient(60deg, blue,tomato);
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     font-weight: bold;
 
@@ -37,7 +40,7 @@ body{
 .physical{
     background-image: url(hen-images/Backgorund/image\ 18.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
 }
 .top-banner{
     background-image: url("hen-images/Backgorund/image\ 12.png");
@@ -50,19 +53,20 @@ section{
 .murog-basic{
     box-shadow: 10px 10px 40px green;
     border-radius: 10px 5px;
-    height: 80%;
+    height: 100%;
     background-color: white;
 }
 .male-vs-female{
-         bbox-shadow: 10px 10px 40px green;
+         box-shadow: 10px 10px 40px green;
          border-radius: 10px 5px;
-         height: 92%;
+         height: 100%;
          background-color: white;
 }
 .murog{
     background-image: url("hen-images/Backgorund/image\ 16.png");
     background-repeat: no-repeat;
     background-position: left;
+
 }
 #brac{
     border-left: 7px solid;
@@ -70,10 +74,11 @@ section{
     border-image-slice: 1;
 
 }
-differ{
+#Difference{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan) ;
     border-image-slice: 1;
+  
 }
 footer p{
     text-align: center;
